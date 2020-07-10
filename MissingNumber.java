@@ -1,7 +1,7 @@
 package LeetCode;
 
 public class MissingNumber {
-    public static int MissingNumer(int[] arr) {
+    public static int MissingNumber(int[] arr) {
         int sum = 0;
         int idx = -1;
         for (int i = 0; i < arr.length; i++) {
@@ -12,7 +12,7 @@ public class MissingNumber {
     }
 
     public static void main(String[] args) {
-        System.out.println(MissingNumer(new int[]{1, 2, 4, 5, 6, 7, 8, 9, 10}));
+        System.out.println(MissingNumber(new int[]{1, 2, 4, 5, 6, 7, 8, 9, 10}));
     }
 
 
